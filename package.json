@@ -1,8 +1,8 @@
 {
-  "name": "wonderNuxt",
+  "name": "nuxt-course",
   "version": "1.0.0",
-  "description": "My tremendous Nuxt.js project",
-  "author": "vachetvirginie",
+  "description": "Nuxt.js course for Udemy",
+  "author": "Maximilian Schwarzmüller",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -11,8 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "@nuxtjs/pwa": "^3.0.0-0"
+    "nuxt": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
 }
